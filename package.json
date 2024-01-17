@@ -1,8 +1,15 @@
 {
-  "scripts":{
-    "dev":"npx tailwindcss -i ./style.css -o ./output.css --watch"
-},
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/style.css -o ./build/output.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
-  }
+  },
+  "name": "job-portal-landing-page",
+  "description": "<h1>This is Landing Page for Job Portal built from Figma design</h1>\r <p> Figma design is used from web. Link is atttached below and design reference is provided inside image folder. </p>\r <p> Design screen size is 1512px as per figma design so whole Landing page is built accordinly. </p>\r <a href=\"https://www.uistore.design/items/free-landing-page-collections-for-figma/\"> Design Link </a>",
+  "version": "1.0.0",
+  "main": "script.js",
+  
+  "author": "",
+  "license": "ISC"
 }

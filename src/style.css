@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    width: 1512px;
+    color: #626362;
+    background-color: #161815;
+}
+
+
+@layer base{
+    h1{
+        @apply text-[152px] text-black
+    }
+    h2{
+        @apply text-[88px]
+    }
+    h3{
+        @apply text-[64px] text-black
+    }
+    h4{
+        @apply text-5xl text-black
+    }
+    h5{
+        @apply text-xl text-white
+    }
+    p{
+        @apply text-[#909090]
+    }
+    section{
+        @apply px-12 py-10
+    }
+    footer{
+        @apply bg-[#6DE754] text-black
+    }
+}
+
+@layer components{
+
+    .info-cards{
+        @apply flex gap-x-8 mt-8
+    }
+    .card{
+         @apply bg-[#1E201D] p-6 rounded-xl  flex flex-col gap-y-4
+    }
+    .button{
+        @apply px-8 pb-3 pt-2 rounded-xl h-11
+    }
+    .para{
+        @apply pb-3 w-[474px] text-black
+    }
+    .AI{
+        @apply flex gap-x-20
+    }
+}
+
+@layer utilities{
+    .wrapper{
+        @apply px-24 flex justify-start gap-x-7 items-center pt-16 pb-4
+    }
+    .slogan-cards{
+        @apply px-44 flex flex-col items-center
+    }
+    .slogen{
+        @apply  flex flex-col items-center px-36 gap-y-5 py-16
+    }
+
+    .Better-job{
+        @apply  flex flex-col items-center px-36 pt-14
+    }
+    .content{
+        @apply  flex flex-col items-center px-36 pt-14
+    }
+    .AI-Optimize{
+        @apply  flex flex-col px-36 pt-14 
+    }
+}
